@@ -1,0 +1,45 @@
+{
+  "total_rows": 1000000,
+  "total_cols": 8,
+  "coefs": {
+    "Hours_Studied": 0.5254145320603256,
+    "Attendance": 0.0002902769273713801,
+    "Class_Participation": -0.0009599020759155818,
+    "Grade_Encoded": -13.104394736033568
+  },
+  "intercept": 85.56374102404503,
+  "mae": 3.3843680207293456,
+  "mse": 16.572427957941958,
+  "rmse": 4.0709247055112625,
+  "r2": 0.9303897717321341,
+  "mean_score": 84.2838453,
+  "std_score": 15.432968775714967,
+  "mean_hours": 15.0291269,
+  "mean_attendance": 84.711046,
+  "corr_matrix": {
+    "Hours_Studied": {
+      "Hours_Studied": 1.0,
+      "Attendance": -0.0010078774897768993,
+      "Class_Participation": 0.0012442972906951308,
+      "Exam_Score": 0.8122414301053834
+    },
+    "Attendance": {
+      "Hours_Studied": -0.0010078774897768993,
+      "Attendance": 1.0,
+      "Class_Participation": -4.321653910381621e-05,
+      "Exam_Score": -0.0010138159883891973
+    },
+    "Class_Participation": {
+      "Hours_Studied": 0.0012442972906951308,
+      "Attendance": -4.321653910381621e-05,
+      "Class_Participation": 1.0,
+      "Exam_Score": 0.0006835440548680444
+    },
+    "Exam_Score": {
+      "Hours_Studied": 0.8122414301053834,
+      "Attendance": -0.0010138159883891973,
+      "Class_Participation": 0.0006835440548680444,
+      "Exam_Score": 1.0
+    }
+  }
+}

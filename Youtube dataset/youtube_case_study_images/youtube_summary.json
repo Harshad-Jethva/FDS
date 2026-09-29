@@ -1,0 +1,53 @@
+{
+  "total_rows_raw": 3000,
+  "total_rows_clean": 2660,
+  "outliers_removed": 340,
+  "reg_results": [
+    {
+      "Model": "Linear Regression",
+      "R-squared": 0.3206531861060279,
+      "RMSE": 131964.04984618738,
+      "MAE": 91438.52210295001
+    },
+    {
+      "Model": "Decision Tree",
+      "R-squared": 0.7069398238905709,
+      "RMSE": 86673.88566824964,
+      "MAE": 45149.50563909775
+    },
+    {
+      "Model": "Random Forest",
+      "R-squared": 0.8082372054198286,
+      "RMSE": 70111.94879981985,
+      "MAE": 40943.01372213939
+    },
+    {
+      "Model": "Gradient Boosting",
+      "R-squared": 0.6959556197344579,
+      "RMSE": 88283.2584152579,
+      "MAE": 56797.98553181188
+    }
+  ],
+  "clf_results": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 1.0,
+      "F1-Score": 1.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 1.0,
+      "F1-Score": 1.0
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 1.0,
+      "F1-Score": 1.0
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 1.0,
+      "F1-Score": 1.0
+    }
+  ]
+}
